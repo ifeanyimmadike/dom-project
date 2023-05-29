@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: aqua;
+    text-align: center;
+    color: yellowgreen  ;
+}
+/* body design */
+
+body>img{
+width: 15%;
+text-align: center;
+margin-right: -1000px;}
+
+h3{
+    width: 60%;
+    font-size: 25px;
+}
+
+#beeroot{
+    width:15%;
+    text-align: inherit;
+}
+#beerry{
+    width:12%;
+    text-align: inherit;
+}
+#kiwid{
+    width:12%;
+    text-align: inherit;
+}
+#dated{
+    width:15%;
+    text-align: inherit;
+}
+#mangod{
+    width:15%;
+    text-align: inherit;
+}
+
+button{
+    width: 6%;
+}
+/* designing the price ,input and total */
+#price,input,button,#total{
+    color: red;
+}
+div>h3{
+    display: flex;
+}
