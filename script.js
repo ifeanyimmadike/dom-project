@@ -14,7 +14,7 @@ for (var i = 0; i < counters.length; i++) {
 
 function updateTotalPrice() {
   totalPriceElement.innerText = eachPrice*counters}
-
+// increment of quantity
 function increment(index) {
   return function() {
     var counter = parseInt(counters[index].innerText);
@@ -27,6 +27,7 @@ function increment(index) {
   };
 }
 
+// decrement of quantity
 function decrement(index) {
   return function() {
     var counter = parseInt(counters[index].innerText);
@@ -43,6 +44,7 @@ function decrement(index) {
   };
 }
 
+// action on click
 for (var i = 0; i < additionButtons.length; i++) {
   additionButtons[i].onclick = increment(i);
 }
